@@ -1,0 +1,15 @@
+body {
+    background-color: #232b2b;
+    color: #FFFFFF;
+}
+
+.navbar-dark> a{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px; /* or 950px */
+}
