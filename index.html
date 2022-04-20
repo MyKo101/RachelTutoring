@@ -21,7 +21,7 @@
     <!--Navbar-->
     <nav class="nav navbar-dark bg-dark justify-content-center">
         <a class="navbar-brand" href="#aboutme">About Me</a>
-        <a class="navbar-brand" href="#testimonials">Testimonials</a>
+        <a class="navbar-brand" href="#testimonials" style="display:none;">Testimonials</a>
         <a class="navbar-brand" href="#contact">Contact</a>
     </nav>
 
@@ -48,6 +48,9 @@
                 </p>
                 <p>
                     I have ten years experience teaching mathematics across the entire spectrum of secondary school education covering all topics of multiple exam board syllabi. I can help to build the confidence of your child by analysing the areas in where there can be improvement and bridging those vital knowledge gaps. I can help your child to achieve their full potential in mathematics to ensure they get the grades that they deserve and an understanding of the topics that will last them into adulthood.
+                </p>
+                <p>
+                    My prices start at a basic rate of £35 per hour for a private one-to-one session, usually arranged weekly after school or over the weekend. I also offer a discounted rate of £390 for a standard 13 week term, which equates to £30 per session.
                 </p>
 
             </div>
@@ -143,22 +146,26 @@
                         <div class="col-md-7 col-12">
                             <form action="https://formspree.io/f/xpzbybdp"
                                  id="contactmeform" method="POST">
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="text" class="form-control" id="email" name="email" placeholder="Enter Email">
-                            </div>
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name">
-                            </div>
-                            <div class="form-group">
-                                <label for="question">Question</label>
-                                <textarea class="form-control" rows="5" id="message" name="message" placeholder="Enter Question"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
-                            </div>
-                            <input type="hidden" name="_next" value="/thankyou" />
+                                 <div class="form-group">
+                                     <label for="name">Name</label>
+                                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name">
+                                 </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phonenum">Contact Number</label>
+                                    <input type="tel" class="form-control" id="phonenum" name="phonenum" placeholder="Enter Number">
+                                </div>
+                                <div class="form-group">
+                                    <label for="question">Question</label>
+                                    <textarea class="form-control" rows="5" id="message" name="message" placeholder="Enter Question"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                                </div>
+                                <input type="hidden" name="_next" value="/thankyou" />
                         </form>
                         </div>
                     </div>

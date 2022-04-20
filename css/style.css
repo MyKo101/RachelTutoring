@@ -3,10 +3,6 @@ body {
     color: #FFFFFF;
 }
 
-.navbar-dark> a{
-    padding-left:20px;
-    padding-right:20px;
-  }
 
 .container {
     margin-right: auto;
